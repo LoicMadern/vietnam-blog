@@ -21,6 +21,7 @@ jobs:
     - name: Use Node.js 
       uses: actions/setup-node@v3
       with:
+        working-directory: ./
         node-version: "v19.4.0"
         
     - run: yarn install
