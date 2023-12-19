@@ -21,6 +21,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: "v19.4.0"
+        cache-dependency-path: '**/yarn.lock'
         cache: 'yarn'
     - run: yarn install
     - run: yarn test
