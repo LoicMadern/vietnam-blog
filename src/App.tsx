@@ -1,14 +1,11 @@
-import React from "react";
-import logo from "./assets/logo.svg";
-import "./App.css";
+import Post from "./components/Post";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Vietnam blog is coming
-      </header>
+      <div>
+        <Post />
+      </div>
     </div>
   );
 }
