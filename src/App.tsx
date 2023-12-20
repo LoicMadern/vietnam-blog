@@ -1,11 +1,9 @@
-import Post from "./components/Post";
+import ListPosts from "./components/ListPosts";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Post />
-      </div>
+      <ListPosts></ListPosts>
     </div>
   );
 }

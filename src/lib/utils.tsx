@@ -7,8 +7,6 @@ export function formatDate() {
     "/" +
     date.getFullYear() +
     " " +
-    ("00" + date.getHours()).slice(-2) +
-    ":" +
-    ("00" + date.getMinutes()).slice(-2)
+    ("00" + date.getHours()).slice(-2)
   );
 }
