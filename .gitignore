@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# vs code
+.vscode/*
+!.vscode/launch.json
+
 # production
 /build
 
