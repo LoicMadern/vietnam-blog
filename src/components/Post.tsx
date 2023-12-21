@@ -1,6 +1,6 @@
 import React from "react";
 import "./Post.css";
-import { formatDate } from "../lib/utils";
+import { getDateAndHour } from "../lib/utils";
 
 //interface for props Post for DOM
 export interface PostProps {
@@ -13,7 +13,7 @@ export interface PostProps {
 }
 
 export default function Post({ post }: PostProps) {
-  const dateStr = formatDate();
+  const dateStr = getDateAndHour();
   return (
     <div className="Post">
       <div className="head">
