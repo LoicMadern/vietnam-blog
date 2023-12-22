@@ -1,6 +1,6 @@
 # Vietnam blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and composed with Git Actions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
