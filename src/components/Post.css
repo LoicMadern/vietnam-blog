@@ -44,3 +44,14 @@ img {
   height: 200px;
   width: 400px;
 }
+
+@media screen and (max-width: 450px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+  .Post {
+    width: 280px;
+  }
+  img {
+    height: 100px;
+    width: 200px;
+  }
+}
