@@ -4,7 +4,7 @@ export function getDateAndHour() {
   return buildDate(date) + " " + buildHour(date);
 }
 
-export function buildDate(date) {
+export function buildDate(date: Date) {
   return (
     ("00" + date.getDate()).slice(-2) +
     "/" +
@@ -14,7 +14,7 @@ export function buildDate(date) {
   );
 }
 
-export function buildHour(date) {
+export function buildHour(date: Date) {
   return (
     ("00" + date.getHours()).slice(-2) +
     ":" +

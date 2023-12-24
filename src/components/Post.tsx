@@ -5,6 +5,7 @@ import { getDateAndHour } from "../lib/utils";
 //interface for props Post for DOM
 export interface PostProps {
   post: {
+    id: number;
     title: string;
     description: string;
     author: string;
@@ -14,6 +15,7 @@ export interface PostProps {
 
 export default function Post({ post }: PostProps) {
   const dateStr = getDateAndHour();
+  console.log("post content : " + JSON.stringify(post));
   return (
     <div className="Post">
       <div className="head">
