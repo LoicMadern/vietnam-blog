@@ -3,4 +3,5 @@ module.exports = {
     "@babel/preset-env",
     ["@babel/preset-react", { runtime: "automatic" }],
   ],
+  globals: ["ts-jest"[["babelConfig", true]]],
 };
