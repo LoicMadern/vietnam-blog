@@ -1,6 +1,6 @@
 import React from "react";
 import "./Post.css";
-import { getDateAndHour } from "../lib/utils";
+import { getDateAndHour } from "../../lib/utils";
 
 //interface for props Post for DOM
 export interface PostProps {
@@ -22,7 +22,11 @@ export default function Post({ post }: PostProps) {
         <h1 className="title">{post.title}</h1>
       </div>
       {/* help webpackage get image dynamically */}
-      <img src={require("../assets/" + post.image + ".jpg")} alt={post.image} />
+      <img
+        className="post-image"
+        src={require("../../assets/" + post.image + ".jpg")}
+        alt={post.image}
+      />
       <h3>{post.description}</h3>
       <div className="edit">
         <span>By</span>

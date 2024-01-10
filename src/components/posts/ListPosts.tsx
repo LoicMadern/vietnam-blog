@@ -1,5 +1,5 @@
-import Post from "./Post";
-import { posts } from "../lib/data";
+import Post from "../post/Post";
+import { posts } from "../../lib/data";
 import "./ListPosts.css";
 
 export default function ListPosts() {

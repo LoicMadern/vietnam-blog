@@ -1,5 +1,5 @@
 import { cleanup, render, screen } from "@testing-library/react";
-import Post from "../Post";
+import Post from "../post/Post";
 
 const mock_post = {
   id: 1,
