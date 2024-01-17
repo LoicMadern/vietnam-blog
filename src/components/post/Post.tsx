@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
 import { getDateAndHour } from "../../lib/utils";
-import ImageContainer from "../ImageContainer";
+import ImageContainer from "../image/ImageContainer";
 
 //interface for props Post for DOM
 interface PostProps {
