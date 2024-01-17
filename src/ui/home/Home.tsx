@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import background from "../../assets/catba.jpg";
+import background from "../../assets/hagiang.jpg";
 import "./Home.css";
+import ImageContainer from "../../components/image/ImageContainer";
 
 export default function Home() {
   return (
     <div
+      className="background"
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
@@ -14,9 +16,25 @@ export default function Home() {
       }}
     >
       <div className="text">
-        You are home
-        <Link to="/about">About</Link>
-        <Link to="/discover">Discover</Link>
+        <div className="welcome-message">Welcome on my Vietnam Blog</div>
+        <Link to="/discover">
+          <ImageContainer
+            name={"valley"}
+            widthSize={400}
+            heigthSize={300}
+            borderRadius={20}
+            caption="Discover"
+          ></ImageContainer>
+        </Link>
+        <Link to="/about">
+          <ImageContainer
+            name={"about"}
+            widthSize={400}
+            heigthSize={300}
+            borderRadius={20}
+            caption="About"
+          ></ImageContainer>
+        </Link>
       </div>
     </div>
   );

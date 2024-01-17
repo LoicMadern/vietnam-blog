@@ -5,5 +5,19 @@
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  color: blue;
+  color: white;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 13rem;
+  margin: 0 5rem;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.welcome-message {
+  font-size: xx-large;
+  left: 2rem;
+  position: relative;
 }

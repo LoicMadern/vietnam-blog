@@ -8,7 +8,7 @@ test("full app rendering/navigating", async () => {
   const user = userEvent;
 
   // verify page content for default route
-  expect(screen.getByText(/you are home/i)).toBeInTheDocument();
+  expect(screen.getByText(/Vietnam/i)).toBeInTheDocument();
 
   // verify page content for expected route after navigating
   await user.click(screen.getByText(/about/i));
