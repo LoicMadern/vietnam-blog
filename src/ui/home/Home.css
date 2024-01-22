@@ -1,23 +1,65 @@
-.text {
-  height: 100%;
+.background {
+  background-image: url("../../assets/hagiang.jpg");
+  background-size: cover;
   width: 100%;
-  text-align: center;
+  position: fixed;
+}
+
+.boxes {
   display: flex;
-  justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   color: white;
+  height: 100vh;
+  justify-content: center;
+}
+
+.welcome-box {
+  font-size: xxx-large;
+  text-align: center;
+  width: 300px;
+}
+
+.about-box {
+  width: 350px;
+  height: 300px;
+}
+
+.discover-box {
+  width: 400px;
+  height: 200px;
+}
+
+img {
+  border-radius: 20px;
 }
 
 figcaption {
-  position: absolute;
-  bottom: 13rem;
-  margin: 0 5rem;
+  padding-bottom: 6em;
   color: aliceblue;
+  position: absolute;
   font-size: x-large;
+  padding-left: 1rem;
 }
 
-.welcome-message {
-  font-size: xx-large;
-  left: 2rem;
-  position: relative;
+@media (max-width: 1200px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .about-box {
+    width: 300px;
+    height: 250px;
+  }
+
+  .discover-box {
+    width: 300px;
+    height: 150px;
+  }
+
+  figcaption {
+    font-size: medium;
+  }
+
+  .welcome-box {
+    font-size: x-large;
+  }
 }
