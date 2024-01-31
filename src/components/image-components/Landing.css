@@ -1,0 +1,23 @@
+.overlay {
+  position: relative;
+  bottom: 1.4em;
+  background: rgb(21, 21, 21);
+  transition: 1s ease;
+  opacity: 0.5;
+  color: aliceblue;
+  font-size: medium;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.9;
+}
+
+img:hover {
+  transition: 0.6s;
+}
+
+img {
+  border-radius: 20px;
+}
