@@ -12,7 +12,7 @@ test("full app rendering/navigating", async () => {
 
   // verify page content for expected route after navigating
   await user.click(screen.getByText(/about/i));
-  expect(screen.getByText(/you are on the about page/i)).toBeInTheDocument();
+  expect(screen.getByText(/why this blog/i)).toBeInTheDocument();
 });
 
 test("landing on a bad page", () => {

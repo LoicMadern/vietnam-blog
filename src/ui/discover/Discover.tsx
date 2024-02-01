@@ -6,7 +6,7 @@ export default function Discover() {
   return (
     <div style={{ padding: 20 }}>
       <Link to="/" style={{ padding: 10 }}>
-        Home
+        <h2>Home</h2>
       </Link>
       <ListPosts></ListPosts>
       <div id="map">

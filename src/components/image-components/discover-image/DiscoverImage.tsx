@@ -1,4 +1,4 @@
-import "./Discover.css";
+import "./DiscoverImage.css";
 import "../Landing.css";
 
 export default function DiscoverImage() {

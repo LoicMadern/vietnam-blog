@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Discover from "../../components/image-components/discover-image/Discover";
-import About from "../../components/image-components/about-image/About";
+import Discover from "../../components/image-components/discover-image/DiscoverImage";
+import About from "../../components/image-components/about-image/AboutImage";
 
 export default function Home() {
   return (
