@@ -15,8 +15,8 @@ export default function HomeLogo() {
       strokeWidth={1.5}
       stroke={color}
       className="w-6 h-6"
-      width={25}
-      height={25}
+      width={30}
+      height={30}
     >
       <path
         strokeLinecap="round"
