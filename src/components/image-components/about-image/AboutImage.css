@@ -1,8 +1,0 @@
-.about-image {
-  width: 275px;
-  height: 275px;
-}
-.about-image:hover {
-  scale: 0.95;
-  transition: 1s;
-}
