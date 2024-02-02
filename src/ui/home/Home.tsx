@@ -9,11 +9,11 @@ export default function Home() {
       <div className="container">
         <div className="welcome-container">Welcome on my Vietnam Blog</div>
         <div className="images-container">
-          <Link to="/discover">
-            <Discover></Discover>
-          </Link>
           <Link to="/about">
             <About></About>
+          </Link>
+          <Link to="/discover">
+            <Discover></Discover>
           </Link>
         </div>
       </div>

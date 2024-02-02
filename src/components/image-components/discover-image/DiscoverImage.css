@@ -2,3 +2,8 @@
   width: 450px;
   height: 250px;
 }
+
+.discover-image:hover {
+  scale: 0.95;
+  transition: 1s;
+}

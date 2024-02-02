@@ -1,6 +1,6 @@
 .overlay {
   position: relative;
-  bottom: 1.6em;
+  bottom: 1.55em;
   background: rgb(21, 21, 21);
   transition: 1s ease;
   opacity: 0.5;
@@ -19,9 +19,4 @@
 
 img {
   border-radius: 20px;
-}
-
-img:hover {
-  scale: 0.95;
-  transition: 1s;
 }
