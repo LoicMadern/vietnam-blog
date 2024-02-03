@@ -8,18 +8,11 @@
 
 .discover-container {
   display: flex;
-  gap: 100px;
+  gap: 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
   .discover-container {
     flex-direction: column;
   }
-}
-
-.footer {
-  background-color: black;
-  width: 100%;
-  height: 10px;
-  border-radius: 20px;
 }

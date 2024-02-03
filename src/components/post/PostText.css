@@ -4,3 +4,36 @@
   text-align: justify;
   letter-spacing: 0.02em;
 }
+
+@media (max-width: 1600px) {
+  .description-text {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .description-text {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .description-text {
+    width: 600px;
+    font-size: large;
+  }
+}
+
+@media (max-width: 650px) {
+  .description-text {
+    font-size: large;
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .description-text {
+    font-size: large;
+    width: 360px;
+  }
+}

@@ -4,9 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import "./Discover.css";
 import React from "react";
-import filterByName from "../../lib/dataAccess";
-import Post from "../../components/post/Post";
-import { text } from "stream/consumers";
 import PostText from "../../components/post/PostText";
 
 export default function Discover() {
@@ -26,9 +23,9 @@ export default function Discover() {
 
       <div className="carousel-container">
         <h1>Discover Vietnam</h1>
-        <p id="description-text">Through a selection of landscapes</p>
+        <p id="description-text">Through my pictures</p>
         <div className="discover-container">
-          <Carousel width={1000} onChange={thumbHandler} infiniteLoop={true}>
+          <Carousel onChange={thumbHandler} infiniteLoop={true}>
             <div>
               <img src={require("../../assets/mua.jpg")} alt={"Tam Coc"} />
             </div>

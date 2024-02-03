@@ -9,16 +9,10 @@ export default function About() {
         <HomeLogo></HomeLogo>
       </Link>
       <div className="about-top-container">
+        <h2>Why this blog ? </h2>
+
         <div className="about-container">
-          <div>
-            <img
-              className="myself-picture"
-              src={require("../../assets/me.jpg")}
-              alt={"Me"}
-            />
-          </div>
           <div className="about-text">
-            <h2>Why this blog ? </h2>
             <p>
               This blog is a souvenir of my travel in Vietnam on
               <span className="font-style"> October 2023.</span> The idea trip
@@ -28,8 +22,14 @@ export default function About() {
               connects me with the history of my family and my country.
             </p>
           </div>
+          <div>
+            <img
+              className="myself-picture"
+              src={require("../../assets/me.jpg")}
+              alt={"Me"}
+            />
+          </div>
         </div>
-
         <div className="about-container">
           <div className="about-text">
             <p>
@@ -38,12 +38,11 @@ export default function About() {
               places. Originally he would like to go to Africa but went to
               Vietnam when the Indochina war begun. He embarked in Marseille and
               crossed the world in one month with the boat name Paster. During
-              the battlefield in was a truck driver delivering weapons and
-              soldiers to the Battlefield.
+              the war in was a truck driver delivering weapons and soldiers to
+              the battlefield.
             </p>
             <p>
-              The picture next to this text represents my grandfather when he
-              was <span className="font-style"> 19 years old</span>.
+              He is now <span className="font-style"> 91 years old</span>.
             </p>
           </div>
           <div>
