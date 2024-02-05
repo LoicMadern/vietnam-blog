@@ -1,5 +1,7 @@
 # Vietnam blog
 
+The website https://loicmadern.github.io/vietnam-blog/ is on **beta phase**. Do not hesitate to write me some feedbacks ! 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
