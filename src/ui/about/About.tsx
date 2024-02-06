@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
-import AboutImage from "../../components/image-components/about-image/AboutImage";
 import HomeLogo from "../../components/icons/HomeLogo";
 import "./About.css";
 export default function About() {
   return (
-    <div style={{ padding: 20 }}>
+    <div>
       <Link to="/" style={{ padding: 10 }}>
         <HomeLogo></HomeLogo>
       </Link>
       <div className="about-top-container">
-        <h2>Why this blog ? </h2>
+        <h1>Why this blog ? </h1>
 
         <div className="about-container">
           <div className="about-text">
@@ -33,7 +32,7 @@ export default function About() {
         <div className="about-container">
           <div className="about-text">
             <p>
-              When he was just an adult (18 years old for the French majority ).
+              When he was just an adult (18 years old for the French majority)
               He enrolled in the army to defend its country and discover new
               places. Originally he would like to go to Africa but went to
               Vietnam when the Indochina war begun. He embarked in Marseille and

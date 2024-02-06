@@ -16,13 +16,13 @@ export default function Discover() {
   }
 
   return (
-    <div style={{ padding: 20 }}>
+    <>
       <Link to="/" style={{ padding: 10 }}>
         <HomeLogo></HomeLogo>
       </Link>
 
       <div className="carousel-container">
-        <h1>Discover Vietnam</h1>
+        <h2>Discover Vietnam</h2>
         <p id="description-text">Through my pictures</p>
         <div className="discover-container">
           <Carousel onChange={thumbHandler} infiniteLoop={true}>
@@ -63,6 +63,6 @@ export default function Discover() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -4,6 +4,7 @@
   margin-top: 5%;
   align-items: center;
 }
+
 .about-top-container {
   margin: 8% 15%;
 }
@@ -18,8 +19,8 @@
 }
 
 .grandpa-picture {
-  height: 250px;
-  width: 350px;
+  height: 300px;
+  width: 225px;
 }
 
 .about-text {
