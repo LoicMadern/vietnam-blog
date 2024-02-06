@@ -1,5 +1,5 @@
 import "./AboutImage.css";
-import "../Landing.css";
+import "../ContainerImage.css";
 
 export default function AboutImage() {
   return (

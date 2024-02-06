@@ -14,7 +14,11 @@
 
 .image-container:hover .overlay {
   opacity: 0.9;
-  top: 1%;
+}
+
+.image-container:hover {
+  scale: 0.95;
+  transition: 1s;
 }
 
 img {
