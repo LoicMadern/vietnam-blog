@@ -1,0 +1,43 @@
+.about-container {
+  display: flex;
+  gap: 100px;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.about-top-container {
+  margin: 8% 15%;
+}
+
+.font-style {
+  font-weight: bold;
+}
+
+.myself-picture {
+  height: 300px;
+  width: 225px;
+}
+
+.grandpa-picture {
+  height: 300px;
+  width: 225px;
+}
+
+.about-text {
+  font-size: x-large;
+  width: 1000px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0%;
+  }
+  .about-text {
+    font-size: medium;
+    width: 300px;
+  }
+}

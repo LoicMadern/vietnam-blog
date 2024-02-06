@@ -1,0 +1,34 @@
+.carousel-container {
+  margin: 8% 2%;
+}
+
+#description-text {
+  font-size: large;
+}
+
+.discover-container {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 1600px) {
+  .discover-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+.carousel .thumb {
+  border: 0px;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+  border: 3px solid #333;
+  border-radius: 20px;
+}
+
+.thumbs-wrapper {
+  justify-content: center;
+  display: flex;
+}

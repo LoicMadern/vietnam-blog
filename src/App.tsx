@@ -1,9 +1,18 @@
-import ListPosts from "./components/ListPosts";
+import { Routes, Route } from "react-router-dom";
+import About from "./ui/about/About";
+import NoMatch from "./ui/NoMatch";
+import Home from "./ui/home/Home";
+import Discover from "./ui/discover/Discover";
 
 function App() {
   return (
-    <div className="App">
-      <ListPosts></ListPosts>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/discover" element={<Discover />} />
+        <Route path="*" element={<NoMatch />} />
+      </Routes>
     </div>
   );
 }
