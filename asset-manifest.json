@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vietnam-blog/static/css/main.a8e7aef6.css",
-    "main.js": "/vietnam-blog/static/js/main.f4918325.js",
+    "main.css": "/vietnam-blog/static/css/main.cd0e2cf1.css",
+    "main.js": "/vietnam-blog/static/js/main.2f934b25.js",
     "static/js/787.0b71f892.chunk.js": "/vietnam-blog/static/js/787.0b71f892.chunk.js",
     "static/media/lac.jpg": "/vietnam-blog/static/media/lac.edf3f58797fb362d3d90.jpg",
     "static/media/ride.jpg": "/vietnam-blog/static/media/ride.363897b8288cef8b70ed.jpg",
@@ -15,14 +15,14 @@
     "static/media/biendien.jpg": "/vietnam-blog/static/media/biendien.7804320995048e037b4a.jpg",
     "static/media/fansipan.jpg": "/vietnam-blog/static/media/fansipan.a566c5ce79ae13635003.jpg",
     "static/media/about.jpg": "/vietnam-blog/static/media/about.92fa638ba4e99c04484a.jpg",
-    "static/media/papi.jpg": "/vietnam-blog/static/media/papi.d4c71db2473e7fa58092.jpg",
+    "static/media/papi.jpg": "/vietnam-blog/static/media/papi.14df0bfe2c49f05b88c2.jpg",
     "index.html": "/vietnam-blog/index.html",
-    "main.a8e7aef6.css.map": "/vietnam-blog/static/css/main.a8e7aef6.css.map",
-    "main.f4918325.js.map": "/vietnam-blog/static/js/main.f4918325.js.map",
+    "main.cd0e2cf1.css.map": "/vietnam-blog/static/css/main.cd0e2cf1.css.map",
+    "main.2f934b25.js.map": "/vietnam-blog/static/js/main.2f934b25.js.map",
     "787.0b71f892.chunk.js.map": "/vietnam-blog/static/js/787.0b71f892.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8e7aef6.css",
-    "static/js/main.f4918325.js"
+    "static/css/main.cd0e2cf1.css",
+    "static/js/main.2f934b25.js"
   ]
 }
