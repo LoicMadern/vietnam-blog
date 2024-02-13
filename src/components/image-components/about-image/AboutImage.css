@@ -1,4 +1,11 @@
 .about-image {
   width: 275px;
-  height: 275px;
+  height: 259px;
+}
+
+@media (max-width: 1200px) {
+  .about-image {
+    width: 235px;
+    height: 250px;
+  }
 }

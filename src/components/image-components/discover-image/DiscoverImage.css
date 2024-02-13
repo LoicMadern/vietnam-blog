@@ -1,4 +1,11 @@
 .discover-image {
-  width: 450px;
-  height: 250px;
+  width: 275px;
+  height: 259px;
+}
+
+@media (max-width: 1200px) {
+  .discover-image {
+    width: 235px;
+    height: 250px;
+  }
 }
