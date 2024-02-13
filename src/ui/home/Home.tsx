@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="background">
       <div className="container">
-        <div className="welcome-container">Welcome on my Vietnam Blog</div>
+        <div className="welcome-container">Vietnam Blog</div>
         <div className="images-container">
           <Link to="/about">
             <About></About>
