@@ -1,18 +1,19 @@
+.discover-container {
+  margin: 150px 10px;
+}
+
 .carousel-container {
-  margin: 8% 2%;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 #description-text {
   font-size: large;
 }
 
-.discover-container {
-  display: flex;
-  gap: 50px;
-}
-
 @media (max-width: 1600px) {
-  .discover-container {
+  .carousel-container {
     flex-direction: column;
     gap: 0px;
   }
@@ -22,10 +23,12 @@
   border: 0px;
 }
 
-.carousel .thumb.selected,
-.carousel .thumb:hover {
+.carousel .thumb.selected {
   border: 3px solid #333;
   border-radius: 20px;
+}
+.carousel .thumb {
+  transition: none;
 }
 
 .thumbs-wrapper {
