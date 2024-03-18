@@ -1,3 +1,7 @@
+.title-about {
+  text-align: center;
+}
+
 .about-container {
   display: flex;
   gap: 100px;
@@ -6,7 +10,7 @@
 }
 
 .about-top-container {
-  margin: 8% 15%;
+  margin: 5% 23%;
 }
 
 .font-style {

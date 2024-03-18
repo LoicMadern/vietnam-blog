@@ -8,8 +8,7 @@ export default function About() {
         <HomeLogo></HomeLogo>
       </Link>
       <div className="about-top-container">
-        <h1>Why this blog ? </h1>
-
+        <h1 className="title-about">Why this blog ? </h1>
         <div className="about-container">
           <div className="about-text">
             <p>
