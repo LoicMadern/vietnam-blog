@@ -11,7 +11,6 @@ export default function Discover() {
 
   function thumbHandler(currentIndex: number, currentItem: any) {
     let clickItem = currentItem.props.children.props.alt;
-    console.log(currentItem);
     setDescription(clickItem);
   }
 
@@ -21,10 +20,10 @@ export default function Discover() {
         <HomeLogo></HomeLogo>
       </Link>
 
-      <div className="carousel-container">
-        <h2>Discover Vietnam</h2>
+      <div className="discover-container">
+        <h1>Discover Vietnam</h1>
         <p id="description-text">Through my pictures</p>
-        <div className="discover-container">
+        <div className="carousel-container">
           <Carousel onChange={thumbHandler} infiniteLoop={true}>
             <div>
               <img src={require("../../assets/mua.jpg")} alt={"Tam Coc"} />

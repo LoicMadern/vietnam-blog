@@ -4,7 +4,6 @@
 
 .carousel-container {
   display: flex;
-  align-items: flex-start;
   gap: 30px;
 }
 
@@ -16,6 +15,9 @@
   .carousel-container {
     flex-direction: column;
     gap: 0px;
+  }
+  .discover-container {
+    margin-top: 0px;
   }
 }
 
